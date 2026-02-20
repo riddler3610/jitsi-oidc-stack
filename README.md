@@ -56,7 +56,6 @@ sudo crontab -e
 ### Jitsi
 Your Jitsi web container needs these env vars to enable JWT auth and point
 unauthenticated users at the adapter:
-
 ```
 ENABLE_AUTH=1
 AUTH_TYPE=jwt
